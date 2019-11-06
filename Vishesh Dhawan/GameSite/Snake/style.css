@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.root {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.29)),url(resources/img/bodybg.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+
+.main-container {
+    position: relative;
+    height: 90%;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: rgba(67, 67, 67, 0.66);
+    border-radius: 35px;
+}
+
+.game-title {
+    text-align: center;
+    font-size: 48px;
+    font-family: sans-serif;
+    color: rgb(0, 157, 255);
+    margin-bottom: 15px
+}
+
+.canvas-holder {
+    width: 90%;
+    height: 85%;
+    margin: auto;
+}
+
+.canvas-holder2 {
+    margin: auto;
+    width 700px;
+    height: 700px;
+    border: 5px solid;
+}
+
+.canvas {
+    background: #000;
+}
+
+.score-count {
+    color: aliceblue;
+    font-family: 'Arial', sans-serif;
+    text-align-last: center;
+    font-size: 42px;
+    margin: 0;
+}
+
+.wall-box {
+    height: 90%;
+    width: 99.5%;
+    margin: 0;
+    padding: 0;
+}

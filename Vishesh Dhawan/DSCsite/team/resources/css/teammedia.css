@@ -1,0 +1,42 @@
+@media only screen and (max-width: 1024px) {
+/*    Header*/
+    .team-description {
+        width: 110%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    /*    Header*/
+    .team-head-text-box {
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        width: 50%;
+        text-align: center;
+    }
+    
+    .social-ico-holder {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .team-main-head {
+        top: 15%
+    }
+    
+    .team-head-text-box {
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    .team-head {
+        margin-bottom: 20px;
+    }
+    
+    .team-description {
+        width: 100%;
+    }
+}

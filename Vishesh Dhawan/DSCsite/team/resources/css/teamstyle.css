@@ -1,0 +1,116 @@
+/* For Animation */
+
+.js-animation-1,
+.js-animation-2,
+.js-animation-3,
+.js-animation-4,
+.js-animation-5,
+.js-animation-6,
+.js-animation-7,
+.js-animation-8,
+.js-animation-9,
+.js-animation-10,
+.js-animation-11,
+.js-animation-12 {
+    opacity: 0;
+}
+
+.js-animation-1.animated,
+.js-animation-2.animated,
+.js-animation-3.animated,
+.js-animation-4.animated,
+.js-animation-5.animated,
+.js-animation-6.animated,
+.js-animation-7.animated,
+.js-animation-8.animated,
+.js-animation-9.animated,
+.js-animation-10.animated,
+.js-animation-11.animated,
+.js-animation-12.animated {
+    opacity: 1;
+}
+
+/*Everywhere*/
+.root {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 0px 2%;
+    margin: 0vh auto;
+    width: 99%;
+    border-radius: 15px;
+    padding-top: 40px;
+    padding-bottom: 1%;
+    margin-top: 5%;
+}
+
+/*navbar*/
+
+#bodybg {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.19)), url(../images/teambg6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+/*Header*/
+
+.team-header {
+    height: 54vh;
+    background: #fff;
+    background: transparent;
+}
+
+.team-main-head {
+    position: absolute;
+    width: 95%;
+    height: 88%;
+    bottom: 0%;
+    background-image: linear-gradient(rgba(64, 64, 64, 0.83), rgba(0, 0, 0, 0.9)), url(../../../resources/images/team2.jpg);
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+    background-size: cover;
+}
+
+.team-head-text-box {
+    position: absolute;
+    color: #4285f4;
+    font-family: 'Open Sans', sans-serif;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15%;
+    width: 30%;
+}
+
+#team {
+    padding-top: calc(40px - 4vh);
+}
+
+.team-head {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.team-description {
+    width: 100%;
+    color: aliceblue;
+    margin-top: 5px;
+}
+
+.social-ico-holder {
+    text-align: left;
+    margin-top: 5px;
+}
+
+.social-ico-holder.ico-twitter {
+    margin-left: 0px;
+}
+
+/**/
+.abt-team {
+    color: rgb(219, 228, 237);
+}
+

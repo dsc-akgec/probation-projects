@@ -1,0 +1,315 @@
+@media only screen and (max-width: 1366px) {
+
+    .div-body {
+        width: 95%;
+    }
+
+    /*Section About*/
+    .slideshow-box {
+        height: 35vh;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /*    section Team*/
+    .cdis {
+        display: none
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    /*    Header*/
+    header {
+        height: 48vh;
+    }
+
+    .darr-box {
+        display: none;
+    }
+
+    .section-body-flex {
+        display: block;
+        position: relative;
+    }
+
+    .abt-body {
+        padding-right: 0;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 1em;
+    }
+
+    .slideshow-box {
+        height: 21em;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .main-head-box {
+        font-size: 84px
+    }
+
+    .goologo {
+        width: 15em;
+    }
+    
+
+    /*    section Domain*/
+    .doms {
+        display: block;
+        margin-top: 1em;
+    }
+
+    .dom-flex img {
+        width: 25%;
+        height: auto;
+    }
+
+    .flx-grp {
+        padding: 0 5%;
+        margin-bottom: 5px
+    }
+
+    /*notice*/
+    .section-notice {
+        height: 70vh;
+        margin-bottom: 12em;
+    }
+
+    /*    Team Section */
+    .team-membs {
+        width: 70%
+    }
+
+    .super-details {
+        width: 250px;
+    }
+
+    /*    Footer*/
+
+    .details {
+        left: 28%;
+        top: 50%;
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        transform: translateY(-50%) translateX(-50%);
+        width: 50%;
+        width: 40%;
+        padding-right: 17px;
+    }
+    
+    .gmap {
+        width: 35%;
+        right: 10%;
+    }
+
+}
+
+
+/**/
+@media only screen and (max-width: 768px) {
+
+/*    Navbar*/
+    
+    .mobile-nav-icon a {
+        display: block;
+        float: right;
+        margin-right: 3.5%;
+    }
+    
+    .main-nav {
+        margin-right: 25px;
+        margin-bottom: 0;
+        z-index: 9999;
+    }
+    
+    .main-nav li {
+        display: block;
+        margin-bottom: 15px;
+        text-align: right;
+    }
+    
+    .disp {
+        display: none;
+    }
+    
+/*    Header*/
+    
+    header {
+        height: 48vh;
+    }
+
+    .head-text-box {
+        width: 100%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .header-logo {
+        display: none;
+    }
+
+    .main-head-box {
+        font-size: 62px;
+    }
+    
+    /*Section about*/
+
+    .slideshow-box {
+        height: 18em;
+    }
+
+    /*section Team*/
+
+    .cdis {
+        display: block;
+    }
+    
+    .super-details {
+        width: 230px;
+    }
+
+    /*Footer*/
+    
+    .details {
+        width: 50%;
+        font-size: 90%;
+        left: 30%;
+    }
+    
+    .gmap {
+/*        display: none;*/
+    }
+}
+
+
+@media only screen and (max-width: 414px) {
+    
+    .div-body {
+        width: 100%
+    }
+    
+    .slideshow-box {
+        width: 90%;
+        height: 12em;
+    }
+/*    section domains*/
+    .flx-grp {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    
+/*    footer*/
+    
+    footer {
+        overflow: hidden;
+    }
+    
+    .gmap {
+        top: 3%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-0%);
+        transform: translateX(-50%) translateY(-0%);
+        width: 90%;
+    }
+    
+    .details {
+        width: 95%;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        height: 30%;
+        padding: 0;
+    }
+}
+
+
+
+/*Height base*/
+
+@media only screen and (max-height: 1366px) {
+    .gmap {
+        height: 70%;
+    }
+
+    .details {
+        height: 70%;
+        padding-top: 2%;
+    }
+    
+    .section-notice-body {
+        margin-bottom: 4.5vh;
+    }
+    
+    .section-notice {
+/*        margin-bottom: 21vh;*/
+    }
+    
+    .slideshow-box {
+        margin-top: 40px;
+/*        display: none;*/
+    }
+}
+
+@media only screen and (max-height: 1080px) {
+    .gmap {
+        height: 80%;
+    }
+
+    .details {
+        height: 70%;
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-height: 1024px) {
+    .gmap {
+        height: 75%;
+    }
+}
+
+
+@media only screen and (max-height: 823px) {
+    
+    .loc-holder {
+        height: 60vh;
+    }
+    
+    .gmap {
+        height: 40%
+    }
+    
+    .dom-flex {
+        margin-bottom: 25px;
+    }
+    
+}
+
+
+@media only screen and (max-height: 823px) {
+    .loc-holder {
+        height: 52vh;
+    }
+}
+
+@media only screen and (max-height: 736px) {
+    .loc-holder{
+        height: 56vh;
+    }
+}
+
+
+@media only screen and (max-height: 640px) {
+    .loc-holder {
+        height: 73vh;
+    }
+}
+
+@media only screen and (max-height: 568px) {
+    .loc-holder {
+        height: 80vh;
+    }
+}
