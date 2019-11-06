@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body { 
+  font-family: 'Open Sans', 'sans-serif';
+
+}
+.container{
+	display: inline-flex;
+}
+#navigation-bar{
+	width: 100%;
+	background-color: white;
+	border-bottom: solid 0.009em #e5e1e1;
+	position: fixed;
+	z-index: 1;
+	margin: 0;
+}
+ul{
+	display: inline-flex;
+    list-style-type: none;
+}
+
+.search{
+	width: 200px;
+	height: 25px;
+	text-align: center;
+	color: #e1d9d9;
+	border:solid 1px #e5e1e1 ; 
+}
+.search-bar{
+	padding: 23px;
+}
+.logo,.icons{
+	display: inline-flex;
+	padding: 20px 175px 0 220px;
+}
+.post{
+	transform: translate(225px,130px);
+    border: #e1d9d9 0.6px solid;
+    width: 602px;
+}
+.top-bar{
+	width: 600px;
+	height: 55px;
+	display: inline-flex;
+}
+.profile-img{
+	width: 40px;
+	height: 40px;
+	transform: translate(10px ,5px);
+	border: none;
+	border-radius: 20px;
+}
+h5{
+	width: auto;
+	font-size: 0.9em;
+	transform: translate(25px ,10px);
+	color: black;
+}
+h4{
+	color: black;
+}
+.instasave{
+	transform: translate(460px);
+}
+.like-bar-content{
+	padding: 15px;
+	font-size: 0.9em;
+}
+.comments{
+	width: 565px;
+	height: 40px;
+	margin: 10px 0;
+	border: none;
+	color: grey;
+}
+.story-container{
+	width: 300px;
+	margin: 135px 0px 250px 345px;
+	position: fixed;
+}
+.story-container-top{
+	display: inline-flex;
+	transform: translate(-70px);
+}
+.profile{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+h3{
+	font-size: 0.8em;
+    padding: 10px;
+    color: black;
+}
+.stories{
+	border: solid #ebe9e9 1px;
+	width: 270px;
+	height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	    transform: translate(-75px,15px);
+}
+.profile-stories{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	margin: 10px;
+}
+.suggestion-container{
+	position: fixed;
+	width: 270px;
+	height: 200px;
+	transform: translate(271px, 425px);
+border: solid #ebe9e9 1px;
+}
+.nav-stories{
+	position: fixed;
+	width: 265px;
+	height: 40px;
+	background-color: white;
+	z-index: 1;
+	font-size: 0.8em;
+	transform: translate(-73px, 16px);
+	padding: 10px;
+}
+
+
+
+.navigation-bar{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	position: fixed;
+	z-index: 1;
+}
+.navi{
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	z-index: 1;
+	box-shadow: 0 0 5px 0;
+}
+
+
+
+.same1{
+	display: none;
+}
+
+
+.same{
+	width: 300px;
+	height: 350px;
+	border: solid 1px grey;
+	border-radius: 3px;
+	background-color: white;
+	margin: 80px 0 0 280px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+

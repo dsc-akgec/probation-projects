@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body { 
+  font-family: 'Open Sans', 'sans-serif';
+}
+.container{
+	display: inline-flex;
+}
+.navigation-bar{
+	width: 100%;
+	height: 70px;
+	background-color: white;
+	border-bottom: solid 0.009em #e5e1e1;
+	position: fixed;
+	z-index: 1;
+	margin: 0;
+}
+ul{
+	display: inline-flex;
+    list-style-type: none;
+}
+.nav{
+	padding:5px 30px;
+	border-top: solid 1px  #e5e1e1;
+}
+.nav:hover{
+	border-top: solid 1px black;
+}
+.nav-bar{
+	width: 100%;
+	
+	margin: 50px 0 0 210px;
+}
+
+.search{
+	width: 200px;
+	height: 25px;
+	text-align: center;
+	color: #e1d9d9;
+	border:solid 1px #e5e1e1 ; 
+}
+.search-bar{
+	padding: 23px;
+}
+.logo,.icons{
+	display: inline-flex;
+	padding: 20px 175px 0 220px;
+}
+.post-container{
+	margin: 140px 240px;
+}
+.top{
+	display: inline-flex;
+}
+.top-text{
+	max-width: 200px;
+}
+.text{
+	max-width: 200px;
+	display: inline-flex;
+	margin: 20px 0 0 100px;
+}
+.edit-profile{
+	width: 100px;
+	height: 28px;
+	border: solid 1px  #e5e1e1;
+	font-size: 1em;margin: 5px 0 0 20px;
+	border-radius: 3px;
+	background-color: white;
+}
+
+
+.row{
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-between;
+}
+.img{
+	width: 280px;
+	height: 280px;
+	padding: 10px;
+}
+
+
+
+.navigation-bar{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	position: fixed;
+	z-index: 1;
+}
+.navi{
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	z-index: 1;
+	box-shadow: 0 0 5px 0;
+}
+
+
+
+
+a{
+	color: black;
+}
