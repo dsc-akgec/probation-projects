@@ -17,7 +17,7 @@ The two Games are:
 
 1 **** BOUNCING BALLS ****
 The game starts with 30 balls in random motion, and a white circle near the top left on the screen. The movement of white circle can be controlled with the 4 cursor keys.
-you have to take the random coloured balls inside the white circle to "eat" it, and like this you have to finish all the balls to windthe game.
+you have to take the random coloured balls inside the white circle to "eat" it, and like this you have to finish all the balls to win the game.
 
 
 2) **** SNAKE ****
