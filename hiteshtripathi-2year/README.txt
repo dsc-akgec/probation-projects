@@ -1,10 +1,1 @@
-                                DSC_AKGEC WEBSITE
-   Languages Used:
-   1. HTML
-   2. CSS
-   3. JS
-   
-   THIS WEBSITE CONSIST OF TWO PAGES :
-   1. MAIN PAGE
-   2. TEAM MEMBERS PAGE
-   ALL BUTTONS AND BLUE TEXTS ARE CLICKABLE.
+
