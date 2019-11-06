@@ -1,0 +1,261 @@
+body{
+	font-family: 'Oxygen', sans-serif;
+	background-color: #F8F9FA;
+	background-repeat: no-repeat;          
+	background-size: cover;
+	background-attachment: fixed;
+	overflow-y: scroll;
+    overflow-x: nowrap ;
+    color: #4a4a4a;
+    overflow-x: hidden;
+
+}
+
+
+.header {
+  background-color: white;
+  padding: 16px 16px 16px 16px;
+  margin: 00px;
+  height: 66px;
+  text-align: center;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  overflow: hidden; 
+  }
+  
+.container {
+  
+  margin:auto; 
+  padding: .0;
+  font-size: 24px;
+  margin-top: 40px;
+  text-align: center;
+
+  }
+  
+.contain {
+  border-radius: 00px;
+  background-image : url("backblue.png");
+  background-repeat: no-repeat; 
+  background-size: cover;    
+  padding: 20px 16px;
+  width: 	100%;
+  height: 100px; 
+  text-decoration: none;
+  margin-top: 66px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.box{
+  background-color: white;
+  padding: 8px 16px;
+  width: 100px;
+  height: 70px;
+  margin: 00px 00px 00px 00px;
+
+}
+.blue{
+	color: #60CAF6;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px;
+  margin-top: 0px;
+}
+.fa{
+	color: grey;
+
+
+}
+.column{
+	float: left;
+	width: 33.3%;
+	padding: 20px;
+
+}
+
+
+.button {
+  background-color: #1389FD;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 2px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #1389FD; 
+  color: white; 
+  
+}
+
+.button1:hover {
+  background-color: blue;
+  color: white;
+}
+.round {
+	border-radius: 50% ;
+	background-color: #E7F8FF;
+	padding: 26px ;
+}
+ .homepage__beautiful-uis__app-info{
+   	text-align:center;
+   	margin-bottom:1rem;
+   	text-align: left;
+   	margin-top: 20%;
+ }
+
+
+.site-footer{
+	background-color:#303c42;
+	color:#FFF;
+	padding:1.25rem 0;
+	position:relative;
+	z-index:99
+}
+.container-fluid{
+	width:100%;
+	padding-right:25px;
+	padding-left:25px;
+	margin-right:auto;
+	margin-left:auto
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+	margin-right:-25px;
+	margin-left:-25px
+}
+.col-md-12{
+	position:relative;
+	width:100%;
+	padding-right:25px;
+	padding-left:25px;
+}
+.site-footer__wrapper{
+	align-items:center;
+	display:flex;
+	flex-direction:column
+	}
+	@media (min-width: 576px)
+	{.site-footer__wrapper{flex-direction:row}}
+.site-footer__content{
+	font-size:0.875rem;
+	margin:1.25rem 0
+}
+.site-footer__content a{
+	color:#FFF
+}
+.site-footer__content .licenses{
+	font-size:10px
+}
+@media (min-width: 576px){
+	.site-footer__content{margin:0 1.25rem;flex-grow:1}
+}
+.site-footer__link-list{list-style:none;padding:0}
+.site-footer__link-list li{display:inline;padding-right:0.25rem}
+
+
+.dash-dartpad{flex:1;display:flex;flex-direction:column;align-items:center;background-color:#FFF}
+.dash-dartpad h2{font-size:43px;margin:1.5em 0 0.5em 0;line-height:1.2;color:#000}
+.dash-dartpad h3{color:#000}
+.dash-dartpad select{margin:8px 0 8px 0}
+.dash-dartpad a{color:#1389FD}
+.dash-dartpad #dartpad-host{height:512px;width:100%;max-width:896px;display:flex}
+.dash-dartpad #dartpad-host iframe{flex:1;border:1px solid lightgray}
+
+
+
+
+
+
+
+.homepage__hero{padding:40px 0;position:relative;}
+.homepage__hero .carousel-item-next,.homepage__hero .carousel-item-prev{display:none}
+.homepage__hero .carousel-item-left,.homepage__hero .carousel-item-right{transform:none}
+.homepage__hero__phone-bezel{height:100%;left:50%;position:absolute;top:0;transform:translateX(-50%);width:auto;z-index:50}
+.homepage__hero .carousel-inner{overflow:visible}
+.homepage__hero .carousel-item{overflow:visible;transition:transform 1.2s}
+.homepage__hero__slide{height:300px;position:relative;}
+@media (min-width: 576px){
+	.homepage__hero__slide{height:400px}
+	}
+@media (min-width: 768px){
+	.homepage__hero__slide{height:500px}
+	}
+@media (min-width: 992px){
+	.homepage__hero__slide{height:600px}
+	}
+
+   .homepage__hero__text{color:#FFF;left:50%;
+   	  line-height:1;position:absolute;
+   	  text-shadow:1px 1px 4px rgba(0,0,0,0.25);
+   	  top:50%;transform:translate(-50%, -50%);
+   	  width:100vw;z-index:60}
+   @media (min-width: 480px){
+   	 .homepage__hero__text{color:#1389FD}}
+   @media (min-width: 576px){
+   	 .homepage__hero__text{font-size:64px}}
+   @media (min-width: 768px){
+   	 .homepage__hero__text{font-size:84px}}
+   @media (min-width: 992px){
+   	 .homepage__hero__text{font-size:100px}}
+   .homepage__hero__text .color-white{color:#FFF;display:inline-block}
+   .text-center{text-align:center !important}@media (min-width: 320px)
+   .carousel{position:relative}
+   .carousel-inner{overflow:visible}
+
+.homepage__hero__slide--beautiful .homepage__hero__image--layer-1{height:70%;left:54%;top:49%;transform:translate(-50%, -50%)}
+.homepage__hero__slide--beautiful .homepage__hero__image--layer-2{height:85%;left:50%;top:49%;transform:translate(-50%, -50%)}
+.homepage__hero__slide--beautiful .homepage__hero__image--layer-3{height:65%;left:56%;top:52%;transform:translate(-50%, -50%)}
+.homepage__hero__slide--productive .homepage__hero__image--layer-1{height:58%;left:27%;top:46%;transform:translate(-50%, -50%)}
+.homepage__hero__slide--productive .homepage__hero__image--layer-2{height:70%;left:47%;top:47%;transform:translate(-50%, -50%)}
+.homepage__hero__slide--productive .homepage__hero__image--layer-3{height:53%;left:43%;top:44%;transform:translate(-50%, -50%)}
+.homepage__hero__slide--faster .homepage__hero__image--layer-1{height:70%;left:51%;top:49%;transform:translate(-50%, -50%)}
+.homepage__hero__slide--faster .homepage__hero__image--layer-2{height:78%;left:54%;top:45%;transform:translate(-50%, -50%)}
+.homepage__hero__slide--faster .homepage__hero__image--layer-3{height:76%;left:55%;top:48%;transform:translate(-50%, -50%)}
+.homepage__hero__slide--publish .homepage__hero__image--layer-1{height:61%;left:54.5%;top:47%;transform:translate(-50%, -50%)}
+.homepage__hero__slide--publish .homepage__hero__image--layer-2{height:84%;left:53%;top:49%;transform:translate(-50%, -50%)}
+.homepage__hero__slide--publish .homepage__hero__image--layer-3{height:76%;left:50%;top:50%;transform:translate(-50%, -50%)}
+
+
+  .homepage__hero__image{position:absolute;width:auto}
+   .homepage__hero__image--layer-1{z-index:40}
+   .homepage__hero__image--layer-2{z-index:41}
+   .homepage__hero__image--layer-3{z-index:42}
+
+
+.homepage__hero__slide.active:not(.transition-out) .homepage__hero__image--layer-1{
+ /* @alternate */ -webkit-animation:0.8s ease-in-out both hero-layer-in;animation:0.8s ease-in-out both hero-layer-in}
+ .homepage__hero__slide.active:not(.transition-out) .homepage__hero__image--layer-2{ 
+ 	/* @alternate */ -webkit-animation:0.8s 0.4s ease-in-out both hero-layer-in;animation:0.8s 0.4s ease-in-out both hero-layer-in}
+ .homepage__hero__slide.active:not(.transition-out) .homepage__hero__image--layer-3{ 
+ 	/* @alternate */ -webkit-animation:0.8s 0.8s ease-in-out both hero-layer-in;animation:0.8s 0.8s ease-in-out both hero-layer-in}
+ .homepage__hero__slide.active:not(.transition-out) .homepage__hero__text{
+ 	 /* @alternate */ -webkit-animation:0.8s 1.2s ease-in-out both hero-layer-in;animation:0.8s 1.2s ease-in-out both hero-layer-in}
+ .homepage__hero__slide.active:not(.transition-out) .homepage__hero__text .color-white{
+ 	 /* @alternate */ -webkit-animation:0.8s 1.2s ease-in-out both hero-text-in;animation:0.8s 1.2s ease-in-out both hero-text-in}
+ .homepage__hero__slide.active.transition-out .homepage__hero__text{
+ 	 /* @alternate */ -webkit-animation:0.6s ease-in-out both hero-layer-out;animation:0.6s ease-in-out both hero-layer-out}
+ .homepage__hero__slide.active.transition-out .homepage__hero__image--layer-1{ 
+     /* @alternate */ -webkit-animation:0.6s 0.2s ease-in-out both hero-layer-out;animation:0.6s 0.2s ease-in-out both hero-layer-out}
+  .homepage__hero__slide.active.transition-out .homepage__hero__image--layer-2{
+    /* @alternate */ -webkit-animation:0.6s 0.4s ease-in-out both hero-layer-out;animation:0.6s 0.4s ease-in-out both hero-layer-out}
+   .homepage__hero__slide.active.transition-out .homepage__hero__image--layer-3{ 
+   	/* @alternate */ -webkit-animation:0.6s 0.6s ease-in-out both hero-layer-out;animation:0.6s 0.6s ease-in-out both hero-layer-out}
+
+
+
+
