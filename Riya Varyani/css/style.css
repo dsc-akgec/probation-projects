@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth|Handlee|Neuton|Old+Standard+TT|Satisfy&display=swap');
+
+:root{
+    --light-gray:#2b3032a1;
+    --primary-color:#45ccb8;
+    --border:#2b303218;
+    --text-color:#ff686b;
+    --roboto:"Old+Standard+TT",sans-serif;
+    --gugi:"Amaranth",cursive;
+    --sofia:"Handlee",cursive;
+
+}
+
+.primary-color{
+    color: var(--primary-color);
+}
+
+.bg-primary-color{
+    background-color: var(--primary-color)!important;
+}
+
+.text-color{
+    color: var(--text-color);
+}
+
+.font-roboto{
+    font-family: var(--roboto);
+}
+
+.lightblue{
+    color: lightblue;
+}
+
+/*header*/
+header{
+    background-color: var(--primary-color);
+    font-family: var(--roboto);
+}
+header .site-title{
+font-family: var(--gugi);
+}
+
+
+.container .dropdown-togle,
+.container .dropdown-item{
+    font-size: 0.7em;
+}
+
+.header-links a{
+    font-size: 1.0em;
+    text-decoration: none;
+    color: white;
+}
+
+/*navigation menu*/
+
+.navbar-nav{
+    padding: 0.8em 0em;
+}
+
+.navbar-nav .nav-link{
+    font-size: 0.9em;
+    color: var(--light-gray)!important;
+}
+
+.navbar-nav .nav-item .nav-link{
+    padding: 0 1.3em;
+}
+
+.navbar-nav .basket-icon{
+    margin-right: 6.5rem!important;
+}
+
+/*slider one*/
+
+.site-slider{
+    position: relative;
+}
+
+.position-top{
+    position: absolute;
+    top: 45%;
+}
+
+.site-slider.slider-btn.prev,
+.site-slider.slider-btn.next{
+    background-color: var(--primary-color);
+    padding:1rem 1.5rem;
+    border-radius: 10rem;
+    color: white;
+    margin: 0 1rem;
+    opacity: 0;
+    transition: opacity 1s ease;
+
+}
+
+.site-slider:hover .slider-btn .prev,
+.site-slider:hover .slider-btn .next{
+    opacity: 1;
+}
+
+.rigth-0{
+    right: 0;
+}
+
+/*slick dots*/
+
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+}
+
+
+
+.slick-dots li{
+    margin: 0 0.6rem;
+}
+
+.slick-dots button{
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    padding: 0;
+    border: none;
+    background-color: white;
+    text-indent: -9999px;
+    border-radius: 100%;
+}
+
+.slick-dots li.slick-active button{
+    transform:scale(2.5);
+    box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.205);
+}
+
+/*second slider*/
+.site-slider-two{
+    position: relative;
+    height: 30%;
+
+}
+
+.site-slider-two .product{
+height: 20rem;
+position: relative;
+overflow: hidden;
+}
+
+.site-slider-two .product img{
+    
+    margin: auto;
+}
+
+.site-btn.btn-span{
+    padding: 0.8rem 1.9rem;
+    border-radius: 4rem;
+    border: 1px solid var(--border);
+    background-color: white;
+    color: var(--light-gray);
+}
+
+.slider-two .slick-track .product:hover span{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.container.inside{
+    width:100%;
+    margin-top: 5%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-left: 8%;
+    padding: 0;
+    margin-bottom: 10%;
+    
+    
+}
+
+.container h2{
+    background:#45ccb8;
+    color: #fff;
+    width: 200px;
+    font-size: 24px;
+    padding: 5px;
+    height: 40px;
+
+}
+
+.container h2::after{
+    content: '';
+    border-top: 40px solid #45ccb8;
+    border-right: 40px solid transparent;
+    position: relative;
+    left: 49px;
+    top: 35px;
+}
+
+.row.in{
+    margin-top: 30px;
+}
+.container-fluid.up{
+    margin-top: 5px;
+}
+.product-bottom .fas{
+    color: #ff686b;
+    font-size: 10px;
+}
+
+.product-bottom .far{
+    color: #ff686b;
+    font-size: 10px;
+}
+
+.product-bottom h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-bottom h5{
+    font-size: 15px;
+    font-weight: 10px;
+}
+.overlay{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top:10%;
+    margin-left: 0;
+    width: 70px;
+}
+
+.product-top:hover .overlay{
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+
+.overlay .fa{
+    cursor: pointer;
+    background-color:#45ccb8;
+     color: #fff;
+     height: 35px;
+     width: 35px;
+     font-size: 20px;
+     padding: 7px;
+     margin:5%;
+     margin-bottom:5%;
+}
+
+.overlay .btn-secondary{
+    background-color: #ff686b!important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 100%;
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+  
+  .footer .outer{
+    background-color: #ececfa;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+  }
+  .footer .inner{
+    width: 20%;
+    height: 50%;
+    display: inline-block;
+    margin-left: 8%;
+    
+  }
+  .footer .inner2{
+    width: 18%;
+    height: 50%;
+    display: inline-block;
+    margin-left: 3%;
+    
+  }
+  .footer a{
+    display: block;
+    padding: 2%;
+    color: #04bfbf;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online Store</title>
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+</head>
+<body>
+    <!--header-->
+<header>
+<div class="container">
+    <div class="row">
+    <div class="col-md-4 col-sm-12 col-12">
+        <div class="btn-group">
+            <button class="btn border dropdown-toggle my-md-4 my-2 text-white data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"">₹-Rupee</button>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">ERU-Euro</a>
+            <a href="#" class="dropdown-item">Rs-Rupee</a>
+        </div>
+        </div>
+    </div>
+    <div class="col-md-4 col-12 text-center">
+        <h1 class="my-md-3 site-title text-white">Online Store</h2>
+    </div>
+    <div class="col-md-4 col-12 text-right">
+        <p class="my-md-4 header-links">
+            <a href="sign.html" class="px-2">Sign In</a>
+            <a href="sign.html" class="px-2">Create an Account</a>
+        </p>
+    </div>
+    </div>
+</div>
+<div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">FEATURES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#collection">COLLECTION</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#shop">SHOP</a>
+                          </li>
+                          <li class="nav-item">
+                                <a class="nav-link" href="#">ABOUT US</a>
+                              </li>
+                    
+                  </ul>
+                </div>
+                <div class="navbar-nav">
+                    <li class="nav-item border rounded-circle mx-2 search-icon">
+                            <i class="fas fa-search p-2"></i>
+                    </li>
+                    <li class="nav-item border rounded-circle mx-2 basket-icon">
+                        <i class="fas fa-shopping-basket p-2"></i>
+                    </li>
+                </div>
+
+
+              </nav>
+</div>
+</header>
+
+<!--main section-->
+<main>
+
+    <!--first slider-->
+<div class="container-fluid p-0">
+    <div class="site-slider">
+        <div class="slider-one">
+            <div>
+                <img src="./assets/cover1.jpg" class="img-fluid" alt="cover 1">
+            </div>
+            <div>
+                    <img src="./assets/cover.jpg" class="img-fluid" alt="cover 2">
+                </div>
+                <div>
+                        <img src="./assets/cover2.jpg" class="img-fluid" alt="cover 3">
+                    </div>
+        </div>
+        <div class="slider-btn">
+            <span class="prev position-top"
+            ><i class="fas fa-chevron-left"></i
+                ></span>
+            <span class="next position-top right-0"
+            ><i class="fas fa-chevron-right"></i
+            ></span>
+        </div>
+    </div>
+</div>
+
+<!--second slider-->
+
+<div id="collection" class="container-fluid up">
+    <div class="site-slider-two px-md-4">
+        <div class="row slider-two text-center">
+        <div class="col-md-2 product pt-md-5 pt-4">
+            <img src="./assets/phone1.jpeg" alt="phone">
+            <span class="border site-btn btn-span">MOBILE PHONES</span>
+        </div>
+        <div class="col-md-2 product pt-md-5 pt-4">
+                <img src="./assets/watch1.jpeg" alt="phone">
+                <span class="border site-btn btn-span">WATCHES</span>
+            </div>
+            <div class="col-md-2 product pt-md-5 pt-4">
+                    <img src="./assets/earphones.jpeg" class="img-class" alt="phone">
+                    <span class="border site-btn btn-span">EARPHONES</span>
+                </div>
+                <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/bag1.jpeg" alt="phone">
+                        <span class="border site-btn btn-span">BAGS</span>
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                            <img src="./assets/deo.jpeg" alt="phone">
+                            <span class="border site-btn btn-span">DEODERANTS</span>
+                        </div>
+                        <div class="col-md-2 product pt-md-5 pt-4">
+                                <img src="./assets/watch1.jpeg" alt="phone">
+                                <span class="border site-btn btn-span">WATCHES</span>
+                            </div>
+                            
+    </div>
+    
+</div>
+</div>
+
+<!--third-->
+<div id="shop" class="container inside">
+    <h2>New Arrivals</h2>
+    <div class="row in">
+        <div class="col-md-3">
+            <div class="product-top">
+                <img style="width: 100%" src="./assets/jacket.jpg">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Quick Shop">
+                        <i class="fas fa-eye"></i>
+                  </button> 
+                  <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                        <i class="far fa-heart"></i>
+                  </button> 
+                  <button type="button" class="btn btn-secondary" title="Add to Cart">
+                        <i class="fas fa-shopping-cart"></i>
+                  </button>  
+                </div>
+            </div>
+            <div class="product-bottom text-center">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                    <h3 style="font-size: 20px">Sweatshirt</h3>
+                    <h5 style="font-size: 15px">₹1500.00</h5>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-3">
+                <div class="product-top">
+                    <img style="width: 100%" src="./assets/shoes30.jpg">
+                    <div class="overlay">
+                      <button type="button" class="btn btn-secondary" title="Quick Shop">
+                            <i class="fas fa-eye"></i>
+                      </button> 
+                      <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                            <i class="far fa-heart"></i>
+                      </button> 
+                      <button type="button" class="btn btn-secondary" title="Add to Cart">
+                            <i class="fas fa-shopping-cart"></i>
+                      </button>  
+                    </div>
+                </div>
+                <div class="product-bottom text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                        <h3 style="font-size: 20px">Formal Shoes</h3>
+                        <h5 style="font-size: 15px">₹1250.00</h5>
+                </div>
+    
+    
+            </div>
+
+            <div class="col-md-3">
+                    <div class="product-top">
+                        <img style="width: 100%" src="./assets/watch30.jpg">
+                        <div class="overlay">
+                          <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fas fa-eye"></i>
+                          </button> 
+                          <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="far fa-heart"></i>
+                          </button> 
+                          <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fas fa-shopping-cart"></i>
+                          </button>  
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                            <h3 style="font-size: 20px">Watch</h3>
+                            <h5 style="font-size: 15px">₹3500.00</h5>
+                    </div>
+        
+        
+                </div>
+
+                <div class="col-md-3">
+                        <div class="product-top">
+                            <img style="width: 100%" src="./assets/smart30.jpg">
+                            <div class="overlay">
+                              <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                    <i class="fas fa-eye"></i>
+                              </button> 
+                              <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                    <i class="far fa-heart"></i>
+                              </button> 
+                              <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                    <i class="fas fa-shopping-cart"></i>
+                              </button>  
+                            </div>
+                        </div>
+                        <div class="product-bottom text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                <h3 style="font-size: 20px">Smart Watch</h3>
+                                <h5 style="font-size: 15px">₹3800.00</h5>
+                        </div>
+            
+            
+                    </div>
+    
+
+
+
+    </div>
+</div>
+
+<!--fourth-->
+
+
+
+
+
+</main>
+<footer>
+
+
+<div class="footer">
+  <div class="outer">
+    <div style="border-right: 1px solid #afafaf" class="inner">
+      <h4>Information</h4>
+      <a href="">About</a>
+      <a href="">Delivery Information</a>
+      <a href="">Privacy Policy</a>
+      <a href="">Terms & Condition</a>
+    </div>
+    <div style="border-right: 1px solid #afafaf" class="inner2">
+      <h4>Customer Information</h4>
+      <a href="">Customer Information</a>
+      <a href="">Contact Us</a>
+      <a href="">Return</a>
+      <a href="">Site Map</a>
+    </div>
+    <div style="border-right: 1px solid #afafaf" class="inner">
+      <h4 href="">My Account</h4>
+      <a href="">Order History</a>
+      <a href="">Wish List</a>
+      <a href="">News Latter</a>
+    </div>
+    <div class="inner2">
+      <h4>Follow us</h4>
+      <a href="https://www.facebook.com/">Facebook</a>
+      <a href="https://www.instagram.com/">Instagram</a>
+      <a href="https://mail.google.com/">Google+</a>
+      <a href="">Youtube</a>
+    </div>
+  </div>
+  
+</div>
+
+
+</footer>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        
+        <script src="https://kit.fontawesome.com/22096c0f3f.js" crossorigin="anonymous"></script>
+
+        <script src="./js/main.js"></script>
+				
+    
+ 
+
+
+    </body>
+</html>
