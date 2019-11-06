@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/Button1"
+        android:layout_width="155dp"
+        android:layout_height="172dp"
+        android:layout_alignBottom="@+id/imageButton2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="-194dp"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:layout_toRightOf="@+id/imageButton2"
+        android:background="#C1CF3B"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/computervevtor"
+        tools:layout_editor_absoluteX="6dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="133dp"
+        android:layout_height="177dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="176dp"
+        android:background="#C1CF3B"
+        android:src="@drawable/accounts"
+        tools:layout_editor_absoluteX="6dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:layout_width="175dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignStart="@+id/imageButton2"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-14dp"
+        android:layout_marginLeft="-14dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginRight="20dp"
+        android:text="Accounts office"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#D3D3CB"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        astyle="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="573dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="20dp"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:text="Computer department"
+        android:textColor="#F1F1E7"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="here we present to you the departments of this organisation for moving further click on the image "
+        android:textColor="#fff"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-smallcaps" />
+
+</RelativeLayout>
