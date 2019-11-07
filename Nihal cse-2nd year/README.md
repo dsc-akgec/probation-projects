@@ -5,3 +5,8 @@
 								-for partial names.
 Analysis is completely based on attributes provided in dataset.
 Topic modeling is done using clustering algorithms(k means). 
+
+ In screenshots,
+
+ #Starting images shows the graphs of dataset analysis.
+ #Last image shows the Recommendation example of partial names searched by any user.
