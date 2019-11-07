@@ -1,0 +1,257 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+html{
+	max-width: 100%;
+}
+
+
+.div1{
+	max-width: 100%;
+}
+
+
+.nav{
+	
+	background-image: linear-gradient(#4e69a2, #3b5998 50%);
+	height: 80px;
+}
+
+.facebook img{
+	position:absolute;
+	width: 180px;
+	height: 44px;
+
+	left: 17rem;
+	margin-top: 25px;
+}
+
+#form-items, #form-bar{
+	position: relative;
+	display: inline-flex;
+	padding-left: 1rem;
+	font-family: Calibri;
+	font-size: 0.84rem;
+	color:#fff;
+	font-weight: 300;
+	
+}
+
+.form{
+	margin-top: 0;
+	padding: 0
+}
+
+
+#form-items{
+	position: relative;
+	left:  55%;
+	margin-top: 12px; 
+	
+}
+
+
+#form-bar{
+	position: relative;
+	left: 55%;
+	top: -1rem;
+}
+
+
+.input{
+	padding: 3.5px;
+}
+
+
+#button{
+	position: relative;
+	left: 77.8%;
+	top: -2.4rem;
+	cursor: pointer;
+	border:1px solid #29487d;;
+	width: 3rem;
+}
+
+
+.submit{
+	font-family: Calibri;
+	width: 3rem;
+	border-radius: 2px;
+	border: 0;
+	font-weight: bolder;
+	padding: 2px; 
+	background-color: #4e71ba; 
+	color: white;
+	cursor: pointer;
+}
+
+
+a{
+	text-decoration:none;
+	color : #9cb4d8;
+	font-family: Calibri;
+	font-size: 14px;
+	
+	font-weight: 200;
+}
+
+
+#button :hover{
+	background-color: #4267B2;
+}
+
+.forgot{
+	position: relative;
+
+	left: 67%; 
+	top: -2.2rem;
+}
+
+
+
+.after-nav{
+	background: linear-gradient(white, #D3D8E8);
+	width: 100%;
+	height:34rem;
+}
+
+.heading{
+	font-family: Helvetica;
+	position: relative;
+	
+	top: 2rem;
+	font-size: 36px;
+	font-weight: 600; 
+}
+
+
+.quick{
+	font-weight: normal;
+	font-size: 20px;
+	font-family: Helvetica;
+	position: relative;
+	
+	top: 1rem; 
+}
+
+
+.div2{
+	position: relative;
+	left: 53rem;
+	top: -5px;
+	max-width: 30rem;
+}
+
+
+.sign-up{
+	position: relative;
+	left: -2px;
+	top: 2.2rem;
+
+}
+
+
+.first-name, .surname, .mobile, .pass{
+	width: 172px;
+	border-radius: 5px;
+	border: 1px solid #bdc7d8;
+	padding: 8px 10px;
+	font-size: 18px;
+	margin-left: 4px;
+	position: relative;
+	left: -2px;
+	font-family: Helvetica;
+
+} 
+
+
+
+.mobile, .pass{
+	width: 377px;
+	margin-top: 10px;
+}
+
+.day, .month, .year{
+	font-size: 13px;
+	height: 30px;
+	padding: 5px;
+	border: 1px solid #ccd0d5;
+	margin-left: 0;
+}
+
+.radio{
+	
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+.button{
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+	font-weight: bold !important;
+	letter-spacing: normal; font-size: 19px;
+	min-width: 194px;
+	padding: 7px 20px;
+	text-align: center;
+	background: linear-gradient(#67ae55, #578843);
+	box-shadow: inset 0 1px 1px #a4e388;
+	border: 1px solid #2c5115;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	letter-spacing: 1px;
+	margin-top: 25px;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+.tandc{
+	margin-top: 10px;
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+   	font-family: Helvetica;
+}
+
+.tandc>a{
+	color: blue;
+
+	font-size: 14px;
+}
+
+.div1 img{
+	position: absolute;
+	left: 17rem;
+	top: 11.5rem;
+	height: 190px;
+	width: 500px;
+
+}
+
+h2{
+	position: absolute;
+	font-family: Helvetica;
+	left: 17rem;
+	color:#0e385f;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 29px;
+	margin-top: 40px;
+	width: 450px;
+	word-spacing: -1px;
+}
+
+.footer{
+	max-width: 60rem;
+}
+
+
+.foot{
+	height: 7rem;
+	width: 67;
+	position: relative;
+	left: 20rem;
+	top: 2rem;
+
+}
