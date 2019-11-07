@@ -10,3 +10,5 @@ Topic modeling is done using clustering algorithms(k means).
 
  #Starting images shows the graphs of dataset analysis.
  #Last image shows the Recommendation example of partial names searched by any user.
+
+These graphs and recommendation during searching is the main outcome of this project.
