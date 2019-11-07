@@ -15,6 +15,24 @@ distance, indices = model.kneighbors(books_features)
 model = neighbors.NearestNeighbors(n_neighbors=6, algorithm='ball_tree')
 model.fit(books_features)
 distance, indices = model.kneighbors(books_features)
+def get_index_from_name(name):
+    return df[df["title"]==name].index.tolist()[0]
+
+all_books_names = list(df.title.values)
+
+def get_id_from_partial_name(partial):
+    for name in all_books_names:
+        if partial in name:
+            print(name,all_books_names.index(name))
+            
+def print_similar_books(query=None,id=None):
+    if id:
+        for id in indices[id][1:]:
+            print(df.iloc[id]["title"])
+    if query:
+        found_id = get_index_from_name(query)
+        for id in indices[found_id][1:]:
+            print(df.iloc[id]["title"])
 #Checking Recommendation
 print_similar_books("The Catcher in the Rye")
 print_similar_books("The Hobbit or There and Back Again")
